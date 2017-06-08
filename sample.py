@@ -22,7 +22,6 @@ def test_add():
     assert c.get() == 1
 
     c.add()
-    c.add()
     assert c.get() == 2
 
 test_add()
