@@ -1,0 +1,12 @@
+machine:
+  python:
+    version: 2.7.11
+
+dependencies:
+  pre:
+    - sudo apt-get update
+    - sudo apt-get install nginx
+
+test:
+  post:
+    - ./sample.py
