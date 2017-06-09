@@ -12,7 +12,7 @@ test:
   pre:
     - echo '----- start test -----'
   override:
-    - ./test.py
+    - python -m unittest tests.test_add
   post:
     - echo '----- end test -----'
 
