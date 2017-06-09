@@ -12,17 +12,3 @@ class SampleClass:
         return self.num
 
 
-def test_add():
-
-    c = SampleClass()
-
-    assert c.get() == 0
-
-    c.add()
-    assert c.get() == 1
-
-    c.add()
-    assert c.get() == 2
-
-test_add()
-
