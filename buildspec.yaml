@@ -1,0 +1,12 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - sudo apt-get update
+      - sudo apt-get -y install nginx
+  build:
+    commands:
+      - python -m unittest test.test_add
+
+
